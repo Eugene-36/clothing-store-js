@@ -870,3 +870,20 @@ footer .copyright {
     width: 100%;
   }
 }
+
+/* About Page */
+#page-header.about-header {
+  background-image: url('img/banners/banner-about.jpg');
+}
+#about-head {
+  display: flex;
+  align-items: center;
+}
+
+#about-head div {
+  padding-left: 40px;
+}
+#about-head img {
+  width: 50%;
+  height: auto;
+}
