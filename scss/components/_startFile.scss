@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap');
-
 * {
   margin: 0;
   padding: 0;
@@ -72,7 +70,6 @@ body {
   width: 100%;
 }
 
-/** Header Start */
 #header {
   display: flex;
   align-items: center;
@@ -127,9 +124,8 @@ body {
   display: none;
 }
 
-/** HOME PAGE_HERO */
 #hero {
-  background-image: url('img/hero4.png');
+  background-image: url('../../img/hero4.png');
   height: 90vh;
   width: 100%;
   background-size: cover;
@@ -149,7 +145,7 @@ body {
 }
 
 #hero button {
-  background-image: url('img/button.png');
+  background-image: url('../../img/button.png');
   background-color: transparent;
   color: #088178;
   border: 0;
@@ -296,7 +292,7 @@ body {
   justify-content: center;
   align-items: center;
   text-align: center;
-  background-image: url('./img/banners/b2.jpg');
+  background-image: url('../../img/banners/b2.jpg');
   width: 100%;
   height: 40vh;
   background-size: cover;
@@ -333,7 +329,7 @@ body {
   justify-content: center;
   align-items: flex-start;
 
-  background-image: url('./img/banners/b17.jpg');
+  background-image: url('../../img/banners/b17.jpg');
   min-width: 700px;
   height: 50vh;
   background-size: cover;
@@ -342,7 +338,7 @@ body {
 }
 
 #sm-banner .banner-box2 {
-  background-image: url('./img/banners/b10.jpg');
+  background-image: url('../../img/banners/b10.jpg');
 }
 
 #sm-banner h4 {
@@ -381,7 +377,7 @@ body {
   justify-content: center;
   align-items: flex-start;
 
-  background-image: url('./img/banners/b7.jpg');
+  background-image: url('../../img/banners/b7.jpg');
   min-width: 30%;
   height: 30vh;
   background-size: cover;
@@ -391,10 +387,10 @@ body {
 }
 
 #banner3 .banner-box2 {
-  background-image: url('./img/banners/b4.jpg');
+  background-image: url('../../img/banners/b4.jpg');
 }
 #banner3 .banner-box3 {
-  background-image: url('./img/banners/b18.jpg');
+  background-image: url('../../img/banners/b18.jpg');
 }
 
 #banner3 h2 {
@@ -413,7 +409,7 @@ body {
   justify-content: space-between;
   flex-wrap: wrap;
   align-items: center;
-  background-image: url('img/banners/b14.png');
+  background-image: url('../../img/banners/b14.png');
   background-repeat: no-repeat;
   background-position: 20% 30%;
   background-color: #041e42;
@@ -523,10 +519,8 @@ footer .copyright {
   text-align: center;
 }
 
-/** Shop Page  */
-
 #page-header {
-  background-image: url('img/banners/b1.jpg');
+  background-image: url('../../img/banners/b1.jpg');
   width: 100%;
   height: 40vh;
   background-size: cover;
@@ -559,7 +553,6 @@ footer .copyright {
   font-weight: 600;
 }
 
-/** Single Product  */
 #prodetails {
   display: flex;
   margin-top: 20px;
@@ -616,8 +609,6 @@ footer .copyright {
   line-height: 25px;
 }
 
-/* Start Media Query */
-
 @media (max-width: 799px) {
   .section-p1 {
     padding: 40px 40px;
@@ -673,7 +664,7 @@ footer .copyright {
     height: 70vh;
 
     padding: 0 20px;
-    /* ! Тут менял пддинг с 80 на 20  */
+
     background-position: top 30% right 30%;
   }
 
@@ -716,9 +707,8 @@ footer .copyright {
   }
 }
 
-/** BLOG PAGE */
 #page-header.blog-header {
-  background-image: url('img/banners/b19.png');
+  background-image: url('../../img/banners/b19.png');
   background-position-y: 25%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -780,9 +770,8 @@ footer .copyright {
   padding: 150px 150px 0 150px;
 }
 
-/* About Page */
 #page-header.about-header {
-  background-image: url('img/banners/banner-about.jpg');
+  background-image: url('../../img/banners/banner-about.jpg');
 }
 #about-head {
   display: flex;
@@ -869,8 +858,6 @@ footer .copyright {
     text-align: start;
   }
 
-  /* Single Product */
-
   #prodetails {
     display: flex;
     flex-direction: column;
@@ -883,8 +870,6 @@ footer .copyright {
   #prodetails .single-pro-details {
     width: 100%;
   }
-
-  /* BLOG PAGE */
 
   #blog .blog-box {
     display: flex;
@@ -902,7 +887,6 @@ footer .copyright {
   #blog .blog-detailes {
     width: 100%;
   }
-  /* ABOUT PAGE */
 
   #about-head {
     flex-direction: column;
