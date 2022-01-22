@@ -344,10 +344,8 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: wrap;
-          flex-direction: wrap; }
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap; }
 
 #sm-banner .banner-box {
   display: -webkit-box;
@@ -364,7 +362,7 @@ body {
       -ms-flex-align: start;
           align-items: flex-start;
   background-image: url("../../img/banners/b17.jpg");
-  min-width: 700px;
+  min-width: 580px;
   height: 50vh;
   background-size: cover;
   background-position: center;

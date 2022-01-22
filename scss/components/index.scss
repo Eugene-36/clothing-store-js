@@ -249,7 +249,7 @@
 #sm-banner {
   display: flex;
   justify-content: space-between;
-  flex-direction: wrap;
+  flex-wrap: wrap;
 }
 #sm-banner .banner-box {
   display: flex;
@@ -258,7 +258,7 @@
   align-items: flex-start;
 
   background-image: url('../../img/banners/b17.jpg');
-  min-width: 700px;
+  min-width: 580px;
   height: 50vh;
   background-size: cover;
   background-position: center;
