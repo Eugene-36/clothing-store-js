@@ -1155,6 +1155,9 @@ footer .copyright {
 #cart table tbody td {
   font-size: 13px; }
 
+.fa-times-circle {
+  color: red; }
+
 #cart-add {
   display: -webkit-box;
   display: -ms-flexbox;
